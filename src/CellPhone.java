@@ -11,6 +11,22 @@ public class CellPhone {
         this.ram = builder.ram;
     }
 
+    public String getBrand() {
+        return this.brand;
+    }
+
+    public String getModel() {
+        return this.model;
+    }
+
+    public int getRam() {
+        return this.ram;
+    }
+
+    public int getStorage() {
+        return this.storage;
+    }
+
 
 
     public static class Builder {
